@@ -1,12 +1,11 @@
 import React, { useContext } from 'react'
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Context from '../Context'
 
 const NavBar = () => {
 
   const { total } = useContext(Context);
 
-  const navigate = useNavigate();
   return (
     <nav className="nav">
       <div className="nav-title">
